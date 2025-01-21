@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  ticketing:
+    build: .
+    container_name: ticketing
+    ports:
+      - "7000:7000"
